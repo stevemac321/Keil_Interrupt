@@ -1,0 +1,1 @@
+This is a Keil uVision project targeting a STM32F401RE microcontroller that configures a timer, which triggers an interrupt, and who with the "main" thread (no OS, on bare metal) adds some system data to a list, data is synced with an atomic token.
