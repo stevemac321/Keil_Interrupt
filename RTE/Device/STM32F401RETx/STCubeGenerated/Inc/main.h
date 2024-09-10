@@ -37,6 +37,12 @@ extern "C" {
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
 
+
+#include <stddef.h>  // For size_t
+extern volatile uint32_t system_tick; // Declare the system tick variable
+// Forward declaration of the Graph structure (opaque pointer)
+
+
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/

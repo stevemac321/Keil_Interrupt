@@ -15,6 +15,15 @@
  */
 #define CMSIS_device_header "stm32f4xx.h"
 
+/* Keil::Compiler&ARM Compiler:I/O:STDERR&Breakpoint@1.2.0 */
+#define RTE_Compiler_IO_STDERR          /* Compiler I/O: STDERR */
+          #define RTE_Compiler_IO_STDERR_BKPT     /* Compiler I/O: STDERR Breakpoint */
+/* Keil::Compiler&ARM Compiler:I/O:STDIN&Breakpoint@1.2.0 */
+#define RTE_Compiler_IO_STDIN           /* Compiler I/O: STDIN */
+          #define RTE_Compiler_IO_STDIN_BKPT      /* Compiler I/O: STDIN Breakpoint */
+/* Keil::Compiler&ARM Compiler:I/O:STDOUT&Breakpoint@1.2.0 */
+#define RTE_Compiler_IO_STDOUT          /* Compiler I/O: STDOUT */
+          #define RTE_Compiler_IO_STDOUT_BKPT     /* Compiler I/O: STDOUT Breakpoint */
 /* Keil::Device:STM32Cube Framework:STM32CubeMX@1.1.0 */
 #define RTE_DEVICE_FRAMEWORK_CUBE_MX
 /* Keil::Device:STM32Cube HAL:Common@1.8.1 */
